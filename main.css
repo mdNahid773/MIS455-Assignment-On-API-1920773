@@ -5,6 +5,45 @@
     /* background-color: rgb(255, 248, 225); */
 }
 
+header {
+    padding: 30px 0px 30px 0px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 1096px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icon-1 {
+    width: 30px;
+}
+
+.navigation {
+    display: flex;
+    margin-left: 140px;
+}
+
+.navigation li {
+    margin-right: 45px;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: black;
+    background-color:transparent;
+
+}
+
+.navigation ul a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     margin-bottom: 20px;
 }
@@ -56,4 +95,25 @@ a {
 
 .view-button {
     color: blue;
+}
+
+#s-label {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.socials, ul, li, a {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    margin-bottom: 100px;
+}
+
+#s-icon {
+    width: 60px;
+    margin-right: 45px;
 }
